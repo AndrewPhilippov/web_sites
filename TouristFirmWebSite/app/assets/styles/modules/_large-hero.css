@@ -1,6 +1,7 @@
 .large-hero{
   position: relative;
   &__text-content{
+    color: $doesntExist;
     position: absolute;
     top: 50%;
     left: 0;
