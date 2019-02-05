@@ -1234,3 +1234,22 @@ a{
       margin-right: 2rem
   }
   }
+
+.reveal-item{
+  opacity: 0;
+  transition: opacity 1.5s ease-out,
+              -webkit-transform 1.5s ease-out;
+  transition: opacity 1.5s ease-out,
+              transform 1.5s ease-out;
+  transition: opacity 1.5s ease-out,
+              transform 1.5s ease-out,
+              -webkit-transform 1.5s ease-out;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.reveal-item--is-visible{
+    opacity: 1;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
